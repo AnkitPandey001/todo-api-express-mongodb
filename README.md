@@ -20,36 +20,7 @@ This project is a todo application built using Express.js and MongoDB. The appli
    ```bash
    git clone https://github.com/yourusername/todo-api-express-mongodb.git
    cd todo-api-express-mongodb
-2. Install dependencies:   npm install
-
-## Usage
-The following API endpoints are available:
-
-# Get All Tasks
-URL: /tasks
-Method: GET
-Description: Retrieves all tasks.
-
-# Add a New Task
-URL: /tasks
-Method: POST
-Description: Adds a new task.
-Body Parameters:
-title (string): The title of the task.
-description (string): The description of the task.
-
-## Update a Task
-URL: /tasks/:id
-Method: PUT
-Description: Updates an existing task.
-Body Parameters:
-title (string): The new title of the task.
-description (string): The new description of the task.
-
-## Delete a Task
-URL: /tasks/:id
-Method: DELETE
-Description: Deletes a task by its ID.
+2. Install dependencies:   npm install.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements, please feel free to open an issue or submit a pull request.
